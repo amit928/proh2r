@@ -1,0 +1,323 @@
+export const tempData = [
+    {
+        "name": "Aaron Starc",
+        "status": "LEVEL1PENDING",
+        "orgStatus": "Level 1 Pending",
+        "startDate": "2022-10-10",
+        "endDate": "2022-10-10",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "Sick Leave",
+        "reason": ".",
+        "leaveId": 1561
+    },
+    {
+        "name": "Amit Jaiswa",
+        "status": "LEVEL1PENDING",
+        "orgStatus": "Level 1 Pending",
+        "startDate": "2023-02-21",
+        "endDate": "2023-02-21",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "Sick Leave",
+        "reason": "xx",
+        "leaveId": 1644
+    },
+    {
+        "name": "Ajay Sharma",
+        "status": "LEVEL1PENDING",
+        "orgStatus": "Level 1 Pending",
+        "startDate": "2022-12-27",
+        "endDate": "2022-12-27",
+        "totalLeaveTaken": 0.5,
+        "leaveCategory": "Sick Leave",
+        "reason": ".",
+        "leaveId": 1616
+    },
+
+    {
+        "name": "Vishnu Sree",
+        "status": "REJECTED",
+        "orgStatus": "Rejected",
+        "startDate": "2021-09-15",
+        "endDate": "2021-09-15",
+        "totalLeaveTaken": 0.5,
+        "leaveCategory": "Sick Leave",
+        "reason": "Not Feeling Well",
+        "leaveId": 233
+    },
+    {
+        "name": "Laxmi Kumari",
+        "status": "REJECTED",
+        "orgStatus": "Rejected",
+        "startDate": "2022-04-13",
+        "endDate": "2022-04-29",
+        "totalLeaveTaken": 17,
+        "leaveCategory": "Absent Leave",
+        "reason": ".",
+        "leaveId": 427
+    },
+    {
+        "name": "Gayathri Nair",
+        "status": "REJECTED",
+        "orgStatus": "Rejected",
+        "startDate": "2022-04-21",
+        "endDate": "2022-04-22",
+        "totalLeaveTaken": 2,
+        "leaveCategory": "Absent Leave",
+        "reason": "3666",
+        "leaveId": 422
+    },
+    {
+        "name": "Amit Jaiswa",
+        "status": "REJECTED",
+        "orgStatus": "Rejected",
+        "startDate": "2021-09-08",
+        "endDate": "2021-09-08",
+        "totalLeaveTaken": 0.5,
+        "leaveCategory": "Casual Leave",
+        "reason": "Urgent Work",
+        "leaveId": 216
+    },
+    {
+        "name": "Imaya varman",
+        "status": "REJECTED",
+        "orgStatus": "Rejected",
+        "startDate": "2022-03-10",
+        "endDate": "2022-03-10",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "Absent Leave",
+        "reason": "gcfulvjb",
+        "leaveId": 349
+    },
+    {
+        "name": "Imaya varman",
+        "status": "REJECTED",
+        "orgStatus": "Rejected",
+        "startDate": "2022-03-08",
+        "endDate": "2022-03-09",
+        "totalLeaveTaken": 2,
+        "leaveCategory": "Special Leave",
+        "reason": "jfukgikb",
+        "leaveId": 348
+    },
+    {
+        "name": "Imaya varman",
+        "status": "REJECTED",
+        "orgStatus": "Rejected",
+        "startDate": "2022-03-03",
+        "endDate": "2022-03-07",
+        "totalLeaveTaken": 3.5,
+        "leaveCategory": "Privilage Leave",
+        "reason": "aaaaaaaaaaaaaa",
+        "leaveId": 347
+    },
+    {
+        "name": "Frank Penn",
+        "status": "REJECTED",
+        "orgStatus": "Rejected",
+        "startDate": "2021-12-02",
+        "endDate": "2021-12-02",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "Casual Leave",
+        "reason": "Personal Work",
+        "leaveId": 273
+    },
+    {
+        "name": "Partha Saha",
+        "status": "REJECTED",
+        "orgStatus": "Rejected",
+        "startDate": "2021-09-09",
+        "endDate": "2021-09-09",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "Privilage Leave",
+        "reason": "Personal Work",
+        "leaveId": 220
+    },
+    {
+        "name": "Partha Saha",
+        "status": "REJECTED",
+        "orgStatus": "Rejected",
+        "startDate": "2021-09-08",
+        "endDate": "2021-09-08",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "Sick Leave",
+        "reason": "Not Feeling Well",
+        "leaveId": 215
+    },
+    {
+        "name": "Parshant Saini",
+        "status": "REJECTED",
+        "orgStatus": "Rejected",
+        "startDate": "2021-09-09",
+        "endDate": "2021-09-09",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "Absent Leave",
+        "reason": "Urgent Work",
+        "leaveId": 222
+    },
+    {
+        "name": "Parshant Saini",
+        "status": "REJECTED",
+        "orgStatus": "Rejected",
+        "startDate": "2021-09-08",
+        "endDate": "2021-09-08",
+        "totalLeaveTaken": 0.5,
+        "leaveCategory": "Privilage Leave",
+        "reason": "Urgent Work",
+        "leaveId": 217
+    },
+    {
+        "name": "Parshant Saini",
+        "status": "REJECTED",
+        "orgStatus": "Rejected",
+        "startDate": "2021-08-26",
+        "endDate": "2021-08-26",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "Sick Leave",
+        "reason": "Urgent Family Work",
+        "leaveId": 201
+    },
+    {
+        "name": "Bishwajeet Dubey",
+        "status": "REJECTED",
+        "orgStatus": "Rejected",
+        "startDate": "2021-09-09",
+        "endDate": "2021-09-09",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "Casual Leave",
+        "reason": "Urgent Work",
+        "leaveId": 219
+    },
+    {
+        "name": "Bishwajeet Dubey",
+        "status": "REJECTED",
+        "orgStatus": "Rejected",
+        "startDate": "2021-09-08",
+        "endDate": "2021-09-08",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "On Duty",
+        "reason": "Client Meeting",
+        "leaveId": 214
+    },
+    {
+        "name": "Tom Cruise",
+        "status": "APPROVED",
+        "orgStatus": "Approved",
+        "startDate": "2022-04-27",
+        "endDate": "2022-04-29",
+        "totalLeaveTaken": 3,
+        "leaveCategory": "Absent Leave",
+        "reason": "Medical",
+        "leaveId": 441
+    },
+    {
+        "name": "Leonardo DiCaprio",
+        "status": "APPROVED",
+        "orgStatus": "Approved",
+        "startDate": "2021-07-05",
+        "endDate": "2021-07-05",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "On Duty",
+        "reason": "Adjustment of Attendance records.",
+        "leaveId": 804
+    },
+    {
+        "name": "Leonardo DiCaprio",
+        "status": "APPROVED",
+        "orgStatus": "Approved",
+        "startDate": "2021-07-03",
+        "endDate": "2021-07-03",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "On Duty",
+        "reason": "Adjustment of Attendance records.",
+        "leaveId": 801
+    },
+    {
+        "name": "Leonardo DiCaprio",
+        "status": "APPROVED",
+        "orgStatus": "Approved",
+        "startDate": "2021-07-03",
+        "endDate": "2021-07-03",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "On Duty",
+        "reason": "Adjustment of Attendance records.",
+        "leaveId": 802
+    },
+    {
+        "name": "Leonardo DiCaprio",
+        "status": "APPROVED",
+        "orgStatus": "Approved",
+        "startDate": "2021-07-02",
+        "endDate": "2021-07-02",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "On Duty",
+        "reason": "Adjustment of Attendance records.",
+        "leaveId": 800
+    },
+    {
+        "name": "Leonardo DiCaprio",
+        "status": "APPROVED",
+        "orgStatus": "Approved",
+        "startDate": "2021-07-02",
+        "endDate": "2021-07-02",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "On Duty",
+        "reason": "Adjustment of Attendance records.",
+        "leaveId": 799
+    },
+    {
+        "name": "Leonardo DiCaprio",
+        "status": "APPROVED",
+        "orgStatus": "Approved",
+        "startDate": "2021-07-01",
+        "endDate": "2021-07-01",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "On Duty",
+        "reason": "Adjustment of Attendance records.",
+        "leaveId": 798
+    },
+    {
+        "name": "Leonardo DiCaprio",
+        "status": "APPROVED",
+        "orgStatus": "Approved",
+        "startDate": "2021-07-01",
+        "endDate": "2021-07-01",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "On Duty",
+        "reason": "Adjustment of Attendance records.",
+        "leaveId": 797
+    },
+    {
+        "name": "Tom Cruise",
+        "status": "APPROVED",
+        "orgStatus": "Approved",
+        "startDate": "2022-06-29",
+        "endDate": "2022-06-29",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "On Duty",
+        "reason": "gbthtr",
+        "leaveId": 1370
+    },
+    {
+        "name": "Tom Cruise",
+        "status": "APPROVED",
+        "orgStatus": "Approved",
+        "startDate": "2022-05-09",
+        "endDate": "2022-05-09",
+        "totalLeaveTaken": 1,
+        "leaveCategory": "Privilage Leave",
+        "reason": "suffering from cold",
+        "leaveId": 1322
+    },
+    {
+        "name": "Tom Cruise",
+        "status": "APPROVED",
+        "orgStatus": "Approved",
+        "startDate": "2022-04-27",
+        "endDate": "2022-04-29",
+        "totalLeaveTaken": 3,
+        "leaveCategory": "Absent Leave",
+        "reason": "Medical",
+        "leaveId": 441
+    }
+
+]

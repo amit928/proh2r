@@ -1,0 +1,95 @@
+<View style={styles.pendingCardView2}>
+
+                        <View style={{ flexDirection: 'row', marginTop: 12, marginLeft: 12, alignItems: 'center' }} >
+
+                            {/* <Image style={{ height: 40, width: 40, resizeMode: 'contain' }} source={require('../../images/expenses.png')}></Image> */}
+
+                            <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratSemiBold, fontSize: 14, padding: 8, color: 'black', flex: 1, marginLeft: 1 }}>{MySelectedData}</Text>
+
+                            <TouchableOpacity style={{ marginRight: 10, height: 30, width: 30, justifyContent: 'center', alignItems: 'center' }} onPress={() => { }} >
+
+                                <Image style={{ width: 20, height: 20, resizeMode: 'contain' }}
+                                    source={require('../../images/viewGray.png')} />
+                            </TouchableOpacity>
+
+                            {/* {
+                                item.status == 'LEVEL1PENDING' ?
+
+                                    <TouchableOpacity style={{ marginRight: 10, height: 30, width: 30, justifyContent: 'center', alignItems: 'center' }} onPress={() => this.deleteAction(index)} >
+
+                                        <Image style={{ width: 20, height: 20, resizeMode: 'contain' }}
+                                            source={require('../../images/deleteGray.png')} />
+                                    </TouchableOpacity>
+
+                                    :
+
+                                    <></>
+
+                            } */}
+
+                        </View>
+
+
+
+                        <View style={{ flexDirection: 'row', height: 50 }}>
+
+                            <View style={{ flex: 2, marginLeft: 5, }}>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'rgba(148,149,150,1.0)', paddingTop: 16, paddingLeft: 16 }}>Incurred Date</Text>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'black', paddingTop: 4, paddingLeft: 16 }}>01-02-2022</Text>
+
+                            </View>
+                            {/* <View style={{ flex: 2 }}>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'rgba(148,149,150,1.0)', paddingTop: 16, paddingLeft: 16 }}>Category</Text>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'black', paddingTop: 4, paddingLeft: 16 }}>Reimbursable Yo</Text>
+
+                            </View> */}
+                            <View style={{ flex: 2, marginLeft: 16 }}>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'rgba(148,149,150,1.0)', paddingTop: 16, paddingLeft: 16 }}>Amount </Text>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'black', paddingTop: 4, paddingLeft: 16 }}>{amount}</Text>
+
+                            </View>
+
+                        </View>
+
+
+
+
+                        <View style={{ flexDirection: 'row', height: 50 }}>
+                            {/* <View style={{ flex: 2, marginLeft: 16 }}>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'rgba(148,149,150,1.0)', paddingTop: 16, paddingLeft: 16 }}>Amount </Text>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'black', paddingTop: 4, paddingLeft: 16 }}>Billable Yo</Text>
+
+                            </View> */}
+
+                            <View style={{ flex: 2, marginLeft: 5 }}>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'rgba(148,149,150,1.0)', paddingTop: 16, paddingLeft: 16 }}>Reimbursable</Text>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'black', paddingTop: 4, paddingLeft: 16 }}> { Reimbursable ? 'Yes' : 'No' }</Text>
+
+                            </View>
+
+                            <View style={{ flex: 2, marginLeft: 16 }}>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'rgba(148,149,150,1.0)', paddingTop: 16, paddingLeft: 16 }}>Billable </Text>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'black', paddingTop: 4, paddingLeft: 16 }}>{ Billable ? 'Yes' : 'No' }</Text>
+
+                            </View>
+                        </View>
+
+                        {/* <View style={{ flexDirection: 'row', height: 50 }}>
+                            <View style={{ flex: 2, marginLeft: 16 }}>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'rgba(148,149,150,1.0)', paddingTop: 16, paddingLeft: 16 }}>Billable </Text>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'black', paddingTop: 4, paddingLeft: 16 }}>Billable Yo</Text>
+
+                            </View>
+
+                            <View style={{ flex: 2 }}>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'rgba(148,149,150,1.0)', paddingTop: 16, paddingLeft: 16 }}>Actions</Text>
+                                <Text allowFontScaling={false} style={{ fontFamily: Constant.MontserratRegular, fontSize: 11, color: 'black', paddingTop: 4, paddingLeft: 16 }}>Status Yo</Text>
+
+                            </View>
+                        </View> */}
+
+
+
+                    </View>
+
+                    

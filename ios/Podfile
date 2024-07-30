@@ -1,0 +1,64 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '11.0'
+# use_frameworks!
+
+target 'proh2r' do
+
+  # pod 'Google-Maps-iOS-Utils', :git => 'https://github.com/Simon-TechForm/google-maps-ios-utils.git', :branch => 'feat/support-apple-silicon'
+
+  config = use_native_modules!
+
+  pod 'Firebase', :modular_headers => true
+  pod 'FirebaseCore', :modular_headers => true
+  pod 'GoogleUtilities', :modular_headers => true
+  $RNFirebaseAsStaticFramework = true
+
+  use_react_native!(
+    :path => config[:reactNativePath],
+    # to enable hermes on iOS, change `false` to `true` and then install pods
+    :hermes_enabled => false
+  )
+
+  pod 'react-native-location', :path => '../node_modules/react-native-location'
+
+  pod 'TouchID', :path => '../node_modules/react-native-touch-id'
+
+  pod 'react-native-geolocation', :path => '../node_modules/@react-native-community/geolocation'
+
+  pod 'rn-fetch-blob', :path => '../node_modules/rn-fetch-blob'
+
+  pod 'react-native-google-maps', :path => '../node_modules/react-native-maps'
+
+  # pod 'GooglePlaces', '7.1.0'
+
+  # pod 'GoogleMaps', '~> 1.13.2'
+  
+
+  pod 'RNDeviceInfo', :path => '../node_modules/react-native-device-info'
+
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
+  target 'proh2rTests' do
+    inherit! :complete
+    # Pods for testing
+  end
+
+  # Enables Flipper.
+  #
+  # Note that if you have use_frameworks! enabled, Flipper will not work and
+  # you should disable the next line.
+  use_flipper!()
+  
+
+    post_install do |installer|
+      react_native_post_install(installer)
+        installer.pods_project.targets.each do |target|
+            target.build_configurations.each do |config|
+              config.build_settings["ONLY_ACTIVE_ARCH"] = "NO"
+              # config.build_settings['EXCLUDED_ARCHS[sdk=iphonesimulator*]'] = "arm64"
+            end
+        end
+    end
+  end
